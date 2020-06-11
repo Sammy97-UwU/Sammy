@@ -1,0 +1,72 @@
+body{
+    background-color:gray;
+}
+
+/* #container{
+    width:1000px;
+    height:800px;
+    margin: 100px auto;
+    background-image: url(https://cdn.pixabay.com/photo/2020/05/01/07/59/flatlay-5115827__340.jpg);
+} */
+#calculator{
+    box-sizing: border-box;
+    width: 332.5px;
+    height: 550px;
+    margin: 100px auto;
+    background-color: silver;
+    border:2px solid black;
+    /* top: 20px; */
+    /* position: relative; */
+    /* border-radius: 5px; */
+    
+}
+.middle{width: 80px;
+    height:80px;
+  
+    font-size: medium;
+    border-radius: 50%;
+    border-width: 0px;
+
+}
+.m{
+
+width: 80px;
+    height:80px;
+    border-radius: 50%;
+    border-width: 0px;
+
+    font-size: medium;
+  
+
+}
+.mi{
+    margin-top: -13px;    
+    width: 80px;
+        height:80px;
+        border-radius: 50%; 
+        border-width: 0px;
+    
+        font-size: medium;
+} 
+/* .mid{margin-top: 50px;
+    margin-right: 50px;
+    display: -moz-deck;
+flex-direction:row-reverse;
+justify-content: space-evenly;
+}    */
+#middleEQ{
+    background-color: rgb(42, 98, 117);
+}
+#middleplus,#middle-,#middlex,#middlediv,#middleC, #middleCE, #middleperc{
+    background-color: gainsboro;
+}
+h1{ border: honeydew;
+display: flex;
+flex-direction: row-reverse;
+text-align: right;
+
+margin-top: 50px;   
+font-size: 50px;
+
+background-color: silver;
+}

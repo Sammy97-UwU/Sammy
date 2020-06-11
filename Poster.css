@@ -1,0 +1,163 @@
+
+*{
+    margin: 0;
+    padding:0;
+    
+box-sizing: border-box;
+}
+#container{
+    background-image: url(https://cdn.pixabay.com/photo/2018/11/26/07/37/character-3838894_960_720.png);
+ position: absolute;  
+display: flex;
+ bottom: auto;
+ top: -600px;
+ left: 120px;
+ background-size: 200px;
+ z-index: 50;
+ width: 500px;
+ height: 1000px;
+ margin: 100px auto;
+ background-repeat: no-repeat;
+
+ 
+}
+#background{
+    
+
+    
+    width: 400px;
+    height: 800px;
+    margin: 100px auto;
+    background-color: silver;
+    border:20px gray;
+    background-image: url(https://cdn.pixabay.com/photo/2018/02/12/11/12/cone-3148033_960_720.jpg);
+    background-repeat: no-repeat;
+    background-size: 800px;
+}
+#box{
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/30/05/51/sign-1069785_960_720.png);
+    position: absolute;  
+   display: flex;
+    bottom: auto;
+    top: 640px;
+    left: 820px;
+    background-size: 275px;
+    z-index: 20;
+    width: 600px;
+    height: 800px;
+    margin: 100px right;
+    background-repeat: no-repeat;
+}
+#text1{
+    position: relative;
+    display: flex;
+    z-index: -20;
+  
+    top: 60px;
+    left: 30px;
+    color: rgb(250, 227, 17);
+    font-size:45px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-family: monospace;
+    
+
+    
+}
+   
+#text2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: -20;
+width:100px;
+  
+    top: 120px;
+    left: -110px;
+    color:whitesmoke;
+    font-size:5px;
+ 
+}
+   
+#text3{
+    position: relative;
+    display: flex;
+    z-index: -30;
+    width: 300px;
+  
+    top: 130px;
+    left:-160px;
+    color:whitesmoke;
+    font-size:10px;
+   
+}
+#text4{
+    position: relative;
+    display: flex;
+   
+    z-index: -400;
+    top: 140px;
+    left:-187px;
+   
+   
+    color:red;
+    font-size:15px;
+    
+   
+}
+#text5{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: -20;
+    width:100px;
+  
+    top: 23px;
+    left: -190px;
+    color:whitesmoke;
+    font-size:7px;
+}
+
+#title1{
+    position: absolute;
+    display: flex;
+    z-index: 20;
+    width: 300px;
+    top: 115px;
+    left:770px;
+  
+    color: olivedrab;
+    font-size:18px;
+   
+}
+ 
+#title2{
+    position: absolute;
+    display: flex;
+    z-index: 20;
+    width: 300px;
+    top: 135px;
+    left:800px;
+  
+    color: rgb(158, 9, 9);
+    font-size:35px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+#title3{
+    position: absolute;
+    display: flex;
+    z-index: 20;
+    width: 300px;
+    top: 170px;
+    left:775px;
+  
+    color:  rgb(158, 9, 9);
+    font-size:55px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+   
+}

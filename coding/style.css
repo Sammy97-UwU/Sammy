@@ -1,0 +1,14 @@
+div {
+    background-color: red;
+    width:20%;
+    height: 8rem;
+    transition-property: background-color,transform;
+    transition-duration: 4s;
+    border-radius: 100%;
+    
+}
+div:hover{
+
+    background-color: lightblue;
+    transform: rotate(360deg);
+}
